@@ -1,3 +1,6 @@
+versione = 3.1 
+#3.1 21/04/22 
+
 from time import sleep
 from modules_eng.clear import clear
 
@@ -148,6 +151,9 @@ def program_ita():
                         if A == 'y':
                                 clear()
                                 calcolatore_area()
+                        if A == 'n':
+                                print('bye')
+                                whait()
 
                 #quadrato
                 if forma == '1':
@@ -161,6 +167,9 @@ def program_ita():
                         if A == 'y':
                                 clear()
                                 calcolatore_area()
+                        if A == 'n':
+                                print('bye')
+                                whait()
 
                 #rettangolo
                 if forma == '2':
@@ -174,6 +183,9 @@ def program_ita():
                         if A == 'y':
                                 clear()
                                 calcolatore_area()
+                        if A == 'n':
+                                print('bye')
+                                whait()
                 #triangolo
                 if forma == '3':
                         area_triangolo()
@@ -186,6 +198,9 @@ def program_ita():
                         if A == 'y':
                                 clear()
                                 calcolatore_area()
+                        if A == 'n':
+                                print('bye')
+                                whait()
                 #cerchio
                 if forma == '4':
                         area_cerchio()
@@ -198,6 +213,9 @@ def program_ita():
                         if A == 'y':
                                 clear()
                                 calcolatore_area()
+                        if A == 'n':
+                                print('bye')
+                                whait()
                 #trapezio
                 if forma == '5':
                         area_trapezio()
@@ -210,6 +228,9 @@ def program_ita():
                         if A == 'y':
                                 clear()
                                 calcolatore_area()
+                        if A == 'n':
+                                print('bye')
+                                whait()
         calcolatore_area()
 def select_language():
     print('select language')
@@ -223,13 +244,9 @@ def select_language():
         clear()
         program_ita()
 select_language()
+
 """
 programma creato TOTALMENTE da 3lue9 
 19/04/2022
 all'età di 12 anni 
-"""
-"""
-program TOTALLY created by 3lue9
-04/19/2022
-at the age of 12
 """
